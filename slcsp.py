@@ -5,7 +5,7 @@ plans = pd.read_csv('plans.csv', header=0)
 zips = pd.read_csv('zips.csv', header=0, dtype={'zipcode':'str'})
 # Join on (rate area, state) tuple for easier mapping to plan zipcodes.
 silver_plans = pd.merge(plans, zips, on=['rate_area', 'state'])
-silver_plans = silver_plans.loc[silver_plans['metal_level'] == 'Silver'].sort_values(by='rate', kind='mergesort')
+silver_plans = silver_plans.loc[silver_plans['metal_level'] == 'Silver'].sort_values(by='rate', kind='quicksort')
 
 if __name__ == "__main__":
     with open('slcsp.csv', 'r') as slcsp_file, open('results.csv', 'w') as results_file:
