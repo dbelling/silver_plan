@@ -32,6 +32,6 @@ if __name__ == "__main__":
                 unique_plans = regional_plans.drop_duplicates('rate')
                 sorted_plans = unique_plans.sort_values(by='rate', kind='quicksort')
                 row[1] = regional_plans.iloc[1].rate
-        writer.writerow(row)
+            writer.writerow(row)
     print('Results written to results.csv')
     analyze(missing_zipcodes)
