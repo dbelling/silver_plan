@@ -1,7 +1,7 @@
 ## Intro
 I've opted to use Python for this silver plan analysis because it contains
 several open-source libraries (namely, Pandas) which are well-suited
-for solving diverse problems. It's also a nice easy-to-use interpreted language, 
+for solving diverse problems. It's also a nice easy-to-use interpreted language,
 and a farcry from my roots with MATLAB.
 
 ## Setup
@@ -20,3 +20,11 @@ pip install pandas
 ```
 
 That's it! We're all set to dig into some data.
+
+The `slcsp.py` script is run as:
+
+```bash
+python slcsp.py
+```
+
+from the root project directory.
