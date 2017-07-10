@@ -28,6 +28,18 @@ reason or reasons are there? Fill in your explanation(s) below.
 
     Reason:
 
+    Of the zipcodes provided, a SLCSP could not be found for:
+    40813, 06239, 14846, 07734, 95327, 12961, 91945, 56097,
+    21777, 42330, 07184, 20047
+
+    Plan information is only available on 34 states - the zipcodes above
+    correspond to missing data for: California, Connecticut, DC, Kentucky,
+    Maryland, Minnesota, New Jersey, and New York.
+
+    Nebraska and Arkansas are missing zipcode information.
+
+    California, Colorado, Connecticut, DC, Hawaii, Kentucky, Maryland, Minnesota,
+    New Jersey, Puerto Rico, Rhode Island, Vermont and Washington all lack plan information.
 
 Additional information
 ----------------------
